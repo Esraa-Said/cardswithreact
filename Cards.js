@@ -12,7 +12,10 @@ export default function Cards(props) {
                 <img src = {props.image} className="card-image-top" />
                 <div className="card-body">
                     
-                    <h3 className="card-title">{props.title}<b><span className="fa-solid fa-star" style={{color: "yellow",fontSize:"1.5vw",marginLeft:"50px"}}></span></b> <span style={{fontWeight:"normal",marginLeft:"1px",fontSize:"1.5vw"}}>{props.review}</span></h3>
+                    <h3 className="card-title">
+                        {props.title}
+                        <b><span className="fa-solid fa-star" style={{color: "yellow",fontSize:"1.5vw",marginLeft:"50px"}}></span></b>
+                            <span style={{fontWeight:"normal",marginLeft:"1px",fontSize:"1.5vw"}}>{props.review}</span></h3>
                     <p className="card-text">{props.address}</p>
                     <p className="card-text">{props.date}</p>
                     
