@@ -15,9 +15,7 @@ export default function App() {
 
     return (
         <div>
-            {/* <Cards game={"esraa"} katkot = {"one"} />
-            <Cards game={"said"} katkot = {"two"}/>
-            <Cards game={"ali"} katkot = {"two"}/> */}
+       
             <div className="d-flex justify-content-around align-items-center flex-wrap mt-5">
             {dataShow}
             </div>
@@ -25,18 +23,7 @@ export default function App() {
         </div>
 
 
-        // < div >
-
-
-        //         {/*                 
-        //         <img src={esraa} alt="photo" style={{ height: "800px" }}></img>
-        //         {/* 
-        //         without import
-        //         <img src={require("")} alt />
-
-        //         */} 
-
-        //    </div >
+      
 
     );
 }
